@@ -1,0 +1,71 @@
+.main {
+  margin-top: 4.8rem;
+  &__container {
+    padding: 0 10%;
+  }
+  &__message {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $bg-blue;
+  }
+  &__title,
+  &__subtitle {
+    margin-bottom: 1.6rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: $gray-one;
+  }
+  &__figure {
+    width: 100%;
+  }
+  &__figure img {
+    width: 100%;
+    border-radius: 1.6rem;
+  }
+  &__subtitle {
+    margin-top: 1.6rem;
+  }
+  &__text {
+    margin-bottom: 3.2rem;
+    text-align: 1.2rem;
+    color: $gray-two;
+  }
+}
+
+.form {
+  position: relative;
+  width: 29rem;
+  &__label {
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+  &__text {
+    width: 100%;
+    height: 5rem;
+    padding-left: 1.6rem;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: $gray-five;
+    outline: none;
+  }
+  &__text::placeholder {
+    font-size: 1.6rem;
+  }
+  &__button {
+    position: absolute;
+    top: 2.8rem;
+    right: 0.5rem;
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    border-radius: 1.2rem;
+    color: $white;
+    background-color: $bg-blue;
+    outline: none;
+    border: none;
+  }
+  &__button:hover {
+    background-color: #2d9bdbab;
+    cursor: pointer;
+  }
+}

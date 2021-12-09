@@ -67,4 +67,75 @@ html {
   cursor: pointer;
 }
 
+.main {
+  margin-top: 4.8rem;
+}
+.main__container {
+  padding: 0 10%;
+}
+.main__message {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #2d9cdb;
+}
+.main__title, .main__subtitle {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #333333;
+}
+.main__figure {
+  width: 100%;
+}
+.main__figure img {
+  width: 100%;
+  border-radius: 1.6rem;
+}
+.main__subtitle {
+  margin-top: 1.6rem;
+}
+.main__text {
+  margin-bottom: 3.2rem;
+  text-align: 1.2rem;
+  color: #4f4f4f;
+}
+
+.form {
+  position: relative;
+  width: 29rem;
+}
+.form__label {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+.form__text {
+  width: 100%;
+  height: 5rem;
+  padding-left: 1.6rem;
+  border: none;
+  border-radius: 1.2rem;
+  background-color: #f2f2f2;
+  outline: none;
+}
+.form__text::placeholder {
+  font-size: 1.6rem;
+}
+.form__button {
+  position: absolute;
+  top: 2.8rem;
+  right: 0.5rem;
+  width: 8rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-radius: 1.2rem;
+  color: #ffffff;
+  background-color: #2d9cdb;
+  outline: none;
+  border: none;
+}
+.form__button:hover {
+  background-color: #2d9bdbab;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=styles.css.map */
