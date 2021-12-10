@@ -138,4 +138,75 @@ html {
   cursor: pointer;
 }
 
+.services {
+  margin-top: 9.6rem;
+}
+.services__title {
+  width: 25.9rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #333333;
+}
+.services__container {
+  margin-top: 2.4rem;
+}
+.services__item {
+  width: 31rem;
+  height: 27rem;
+  margin: 0 auto;
+  padding: 2.5rem;
+  margin-bottom: 3.2rem;
+}
+.services__figure {
+  width: 3.4rem;
+  height: 3.4rem;
+  margin-bottom: 2.4rem;
+  border-radius: 0.8rem;
+}
+.services__figure img {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.services .img__one {
+  background: #2d9cdb;
+}
+.services .img__two {
+  background: #27ae60;
+}
+.services .img__three {
+  background: #eb5757;
+}
+.services__subtitle {
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+  color: #333333;
+}
+.services__text {
+  width: 27.3rem;
+  margin-bottom: 2.4rem;
+}
+.services__button {
+  display: block;
+  width: 11.6rem;
+  height: 4.2rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #828282;
+  background-color: #f2f2f2;
+  outline: none;
+}
+
+.services__item:hover {
+  box-shadow: 0 0.5rem 3rem #bdbdbd;
+  border-radius: 2.4rem;
+  cursor: pointer;
+}
+.services__item:hover .services__button {
+  color: #ffffff;
+  background-color: #2d9cdb;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=styles.css.map */
