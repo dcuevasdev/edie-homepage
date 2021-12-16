@@ -265,4 +265,69 @@ html {
   cursor: pointer;
 }
 
+.team {
+  margin-top: 9.6rem;
+}
+.team__item-text {
+  width: 28rem;
+  margin-bottom: 3.6rem;
+}
+.team__subtitle {
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #eb5757;
+}
+.team__title {
+  margin-bottom: 0.8rem;
+  font-size: 2.4em;
+  font-weight: 500;
+}
+.team__p {
+  width: 26rem;
+  font-size: 1.6rem;
+  color: #4f4f4f;
+}
+.team__item-img {
+  width: 280px;
+}
+.team__item-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0 1.2rem;
+  width: 100%;
+}
+.team .figure__one {
+  width: 100%;
+  grid-row: 1/3;
+  align-self: center;
+}
+.team .figure__two {
+  width: 100%;
+}
+.team .figure__three {
+  width: 100%;
+  grid-column: 2/3;
+}
+.team .figure__one,
+.team .figure__two,
+.team .figure__three {
+  place-self: center;
+}
+.team .figure__one img {
+  width: 100%;
+}
+.team .figure__two img {
+  width: 80%;
+}
+.team .figure__three img {
+  width: 90%;
+}
+.team .figure__one img,
+.team .figure__two img,
+.team .figure__three img {
+  border-radius: 2.4rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

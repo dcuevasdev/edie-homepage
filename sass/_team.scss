@@ -1,0 +1,64 @@
+.team {
+  margin-top: 9.6rem;
+  &__item-text {
+    width: 28rem;
+    margin-bottom: 3.6rem;
+  }
+  &__subtitle {
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: $bg-red;
+  }
+  &__title {
+    margin-bottom: 0.8rem;
+    font-size: 2.4em;
+    font-weight: 500;
+  }
+  &__p {
+    width: 26rem;
+    font-size: 1.6rem;
+    color: $gray-two;
+  }
+  &__item-img {
+    width: 280px;
+  }
+  &__item-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 1.2rem;
+    width: 100%;
+  }
+  .figure__one {
+    width: 100%;
+    grid-row: 1 / 3;
+    align-self: center;
+  }
+  .figure__two {
+    width: 100%;
+  }
+  .figure__three {
+    width: 100%;
+    grid-column: 2 / 3;
+  }
+  .figure__one,
+  .figure__two,
+  .figure__three {
+    place-self: center;
+  }
+  .figure__one img {
+    width: 100%;
+  }
+  .figure__two img {
+    width: 80%;
+  }
+  .figure__three img {
+    width: 90%;
+  }
+  .figure__one img,
+  .figure__two img,
+  .figure__three img {
+    border-radius: 2.4rem;
+  }
+}
