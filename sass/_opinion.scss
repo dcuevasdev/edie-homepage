@@ -1,0 +1,30 @@
+.opinion {
+  margin-top: 9.6rem;
+  &__quote {
+    margin-bottom: 3.2rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: $gray-one;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 0 2.4rem;
+  }
+  &__person {
+    width: 8rem;
+    img {
+      width: 100%;
+      border-radius: 1.2rem;
+    }
+  }
+  &__name {
+    margin-bottom: 1.2rem;
+    font-size: 2.4rem;
+    color: $gray-one;
+  }
+  &__position {
+    font-size: 1.8rem;
+    color: $gray-three;
+  }
+}
