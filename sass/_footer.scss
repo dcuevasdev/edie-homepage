@@ -1,0 +1,60 @@
+.footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 9.6rem;
+  padding: 2.4rem 5%;
+  background-color: $background;
+  &__list {
+    width: 10rem;
+    margin-bottom: 2.4rem;
+    list-style: none;
+  }
+  &__list li {
+    margin-bottom: 0.8rem;
+  }
+  &__list li a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: $white;
+    cursor: pointer;
+  }
+  &__list li:hover a {
+    color: $bg-red;
+  }
+  &__social {
+    margin-bottom: 2.4rem;
+    p {
+      font-size: 3.6rem;
+      color: $white;
+    }
+    img {
+      display: inline-block;
+      margin-right: 0.8rem;
+      border-radius: 0.2rem;
+    }
+    img:hover {
+      cursor: pointer;
+    }
+  }
+  form {
+    label {
+      color: white;
+    }
+  }
+  &__created {
+    margin-top: 3.6rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: $white;
+    a {
+      text-decoration: none;
+      color: $white;
+      cursor: pointer;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: $bg-red;
+    }
+  }
+}

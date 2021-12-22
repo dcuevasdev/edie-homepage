@@ -361,4 +361,63 @@ html {
   color: #828282;
 }
 
+.footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 9.6rem;
+  padding: 2.4rem 5%;
+  background-color: #100e1d;
+}
+.footer__list {
+  width: 10rem;
+  margin-bottom: 2.4rem;
+  list-style: none;
+}
+.footer__list li {
+  margin-bottom: 0.8rem;
+}
+.footer__list li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.footer__list li:hover a {
+  color: #eb5757;
+}
+.footer__social {
+  margin-bottom: 2.4rem;
+}
+.footer__social p {
+  font-size: 3.6rem;
+  color: #ffffff;
+}
+.footer__social img {
+  display: inline-block;
+  margin-right: 0.8rem;
+  border-radius: 0.2rem;
+}
+.footer__social img:hover {
+  cursor: pointer;
+}
+.footer form label {
+  color: white;
+}
+.footer__created {
+  margin-top: 3.6rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #ffffff;
+}
+.footer__created a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.footer__created a:hover {
+  text-decoration: underline;
+  color: #eb5757;
+}
+
 /*# sourceMappingURL=styles.css.map */
