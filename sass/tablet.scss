@@ -1,0 +1,127 @@
+@import "_varMixins";
+
+/*=======
+  Globals
+=========*/
+.container {
+  max-width: 120rem;
+}
+
+/*======
+  header
+========*/
+.header {
+  &__open button {
+    display: none;
+  }
+  &__nav {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+  &__nav ul {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    transform: translate(0, 0);
+  }
+  &__nav ul li {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  &__nav ul li a {
+    font-size: 1.8rem;
+    margin-right: 1.8rem;
+  }
+}
+
+/*====
+  main
+======*/
+.main {
+  &__container {
+    width: 56rem;
+    padding-right: 0;
+  }
+  &__title {
+    font-size: 3.6rem;
+  }
+  &__subtitle {
+    font-size: 2.4rem;
+  }
+  &__text {
+    font-size: 1.6rem;
+  }
+  &__subtitle,
+  &__text {
+    width: 29rem;
+  }
+}
+
+/*========
+  Services
+==========*/
+.services {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    min-width: 21rem;
+    margin: 0;
+  }
+}
+
+/*=======
+  ourWork
+=========*/
+.ourWork {
+  &__container {
+    grid-template-columns: repeat(2, minmax(22rem, 100%));
+  }
+  &__item:nth-child(odd) {
+    padding-top: 6.4rem;
+  }
+  &__button {
+    margin-left: auto;
+  }
+}
+
+/*====
+  Team
+======*/
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__item-img {
+    width: 64rem;
+  }
+}
+
+/*=======
+  Opinion
+=========*/
+.opinion {
+  width: 70rem;
+  &__quote {
+    font-size: 2.8rem;
+  }
+}
+
+/*======
+  Footer
+========*/
+.footer {
+  display: flex;
+  justify-content: space-around;
+  &__created {
+    position: absolute;
+    bottom: 1.5rem;
+  }
+}

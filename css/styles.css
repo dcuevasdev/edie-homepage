@@ -182,7 +182,7 @@ html {
   color: #333333;
 }
 .services__text {
-  width: 27.3rem;
+  width: auto;
   margin-bottom: 2.4rem;
 }
 .services__button {
@@ -220,7 +220,7 @@ html {
 }
 .ourWork__container {
   display: grid;
-  grid-template-columns: repeat(1, minmax(22rem, 55rem));
+  grid-template-columns: repeat(1, minmax(22rem, 42rem));
   justify-content: center;
   gap: 3.6rem;
   width: 100%;
