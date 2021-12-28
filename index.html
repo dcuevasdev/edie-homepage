@@ -32,21 +32,32 @@
       <header class="header">
         <div class="header__logo"><p>Edie</p></div>
         <div class="header__open">
-          <button>
+          <button class="open-menu">
             <img src="./assets/menu.svg" alt="menu hamburguesa" />
           </button>
         </div>
-        <nav class="header__nav">
+        <nav id="menu" class="header__nav">
+          <div class="header__button-close">
+            <button class="close-menu">
+              <img src="./assets/close.svg" alt="cerrar menu hamburguesa" />
+            </button>
+          </div>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Our Works</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="close-menu"><a href="#home__identifier">Home</a></li>
+            <li class="close-menu">
+              <a href="#services__identifier">Services</a>
+            </li>
+            <li class="close-menu">
+              <a href="#ourWork__identifier">Our Works</a>
+            </li>
+            <li class="close-menu"><a href="#team__identifier">Clients</a></li>
+            <li class="close-menu">
+              <a href="#footer__identifier">Contact</a>
+            </li>
           </ul>
         </nav>
       </header>
-      <main class="main">
+      <main id="home__identifier" class="main">
         <div class="main__container">
           <p class="main__message">Unhappy with your website?</p>
           <h1 class="main__title">We create beautiful and fast web services</h1>
@@ -78,7 +89,7 @@
           </form>
         </div>
       </main>
-      <section class="services">
+      <section id="services__identifier" class="services">
         <h2 class="services__title">We offer high demand services</h2>
         <div class="services__container">
           <div class="services__item">
@@ -116,7 +127,7 @@
           </div>
         </div>
       </section>
-      <section class="ourWork">
+      <section id="ourWork__identifier" class="ourWork">
         <h2 class="ourWork__title">Good design means good business</h2>
         <div class="ourWork__container">
           <div class="ourWork__item">
@@ -161,7 +172,7 @@
           <img src="./assets/flat.svg" alt="flecha del boton" />
         </div>
       </section>
-      <section class="team">
+      <section id="team__identifier" class="team">
         <div class="team__item team__item-text">
           <h3 class="team__subtitle">Meet the team</h3>
           <h2 class="team__title">We are chilled and a laidback team</h2>
@@ -181,7 +192,7 @@
           </figure>
         </div>
       </section>
-      <section class="opinion">
+      <section id="opinion__identifier" class="opinion">
         <blockquote class="opinion__quote">
           “Fast and outstanding resutls. Edie understands their customer’s
           needs. They have a young and talented team.”
@@ -196,7 +207,7 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
+      <footer id="footer__identifier" class="footer">
         <ul class="footer__list">
           <li><a href="#">Home</a></li>
           <li><a href="#">Services</a></li>
@@ -231,5 +242,6 @@
         </p>
       </footer>
     </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
